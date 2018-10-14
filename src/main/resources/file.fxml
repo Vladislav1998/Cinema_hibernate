@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ImageView fitHeight="269.0" fitWidth="533.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="106.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="13.2955322265625" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@Screenshot_2.png" />
+         </image>
+      </ImageView>
+      <Separator layoutY="268.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="seance" layoutX="169.0" layoutY="298.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#showSeance" prefHeight="25.0" prefWidth="182.0" text="Работать с таблицей &quot;Seance&quot;" AnchorPane.topAnchor="298.0" />
+      <Button fx:id="cinema" layoutX="169.0" layoutY="268.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="170.0" mnemonicParsing="false" onAction="#showCinema" text="Работать с таблицей &quot;Cinema&quot;" AnchorPane.bottomAnchor="98.0" AnchorPane.topAnchor="268.0" />
+      <Button fx:id="film" layoutX="169.0" layoutY="340.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#showFilm" prefHeight="25.0" prefWidth="182.0" text="Работать с таблицей &quot;Film&quot;" AnchorPane.topAnchor="330.0" />
+      <Button fx:id="genre" layoutX="169.0" layoutY="364.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#showGenre" prefHeight="25.0" prefWidth="182.0" text="Работать с таблицей &quot;Genre&quot;" AnchorPane.topAnchor="361.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="395.0" maxWidth="-Infinity" minHeight="395.0" minWidth="-Infinity" prefHeight="395.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CinemaController">
+   <children>
+      <TableView fx:id="table" layoutX="125.0" layoutY="69.0" prefHeight="354.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="title" prefWidth="184.0" text="Кинотеатр" />
+          <TableColumn fx:id="address" prefWidth="259.0" text="Адрес" />
+            <TableColumn fx:id="site" minWidth="0.0" prefWidth="156.0" text="Web-сайт" />
+        </columns>
+      </TableView>
+      <Button fx:id="add" layoutX="231.0" layoutY="357.0" mnemonicParsing="false" onAction="#doAdd" text="Добавить" AnchorPane.leftAnchor="231.0" AnchorPane.topAnchor="365.0" />
+      <Button fx:id="delete" layoutX="306.0" layoutY="369.0" mnemonicParsing="false" onAction="#doDelete" text="Удалить" AnchorPane.rightAnchor="234.0" AnchorPane.topAnchor="365.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="395.0" maxWidth="917.0" minHeight="395.0" minWidth="688.0" prefHeight="395.0" prefWidth="767.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FilmController">
+   <children>
+      <TableView fx:id="table" layoutX="133.0" layoutY="74.0" maxHeight="395.0" minHeight="395.0" prefHeight="395.0" prefWidth="707.0" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+        <columns>
+            <TableColumn fx:id="title" prefWidth="122.0" text="Фильм" />
+          <TableColumn fx:id="description" minWidth="5.0" prefWidth="285.0" text="Описание" />
+          <TableColumn fx:id="countrie" minWidth="0.0" prefWidth="114.0" text="Страна" />
+            <TableColumn fx:id="year" minWidth="5.0" prefWidth="74.0" text="Год" />
+            <TableColumn fx:id="duration" minWidth="0.0" prefWidth="91.0" text="Длительность" />
+            <TableColumn fx:id="genreID" prefWidth="79.0" text="ID-жанра" />
+        </columns>
+      </TableView>
+      <Button fx:id="add" layoutX="308.0" layoutY="361.0" mnemonicParsing="false" onAction="#doAdd" prefWidth="70.0" text="Добавить" AnchorPane.leftAnchor="310.0" />
+      <SplitMenuButton fx:id="genres" alignment="CENTER" layoutX="683.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Жанры" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="delete" layoutX="447.0" layoutY="361.0" mnemonicParsing="false" onAction="#doDelete" prefWidth="70.0" text="Удалить" AnchorPane.rightAnchor="310.0" />
+   </children>
+</AnchorPane>
